@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart | Chalochake</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="main-nav" aria-label="Primary navigation">
+        <a class="brand-logo" href="home.html">Chalochake</a>
+        <ul class="nav-links">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="cart.html">Cart</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="cart-page" aria-labelledby="cart-heading">
+        <h1 id="cart-heading">Shopping Cart</h1>
+
+        <section class="cart-items" aria-label="Shopping cart items">
+          <article class="cart-item">
+            <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=700&q=80" alt="Wireless headphones in black" />
+            <div class="item-details">
+              <h2>Wireless Headphones</h2>
+              <p class="item-price">$89.99</p>
+              <div class="quantity-controls" aria-label="Quantity controls">
+                <button type="button" class="quantity-button">-</button>
+                <span class="quantity-value">1</span>
+                <button type="button" class="quantity-button">+</button>
+              </div>
+              <button type="button" class="remove-button">Remove</button>
+            </div>
+          </article>
+
+          <article class="cart-item">
+            <img src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=700&q=80" alt="Smart watch on a wrist" />
+            <div class="item-details">
+              <h2>Smart Watch</h2>
+              <p class="item-price">$119.99</p>
+              <div class="quantity-controls" aria-label="Quantity controls">
+                <button type="button" class="quantity-button">-</button>
+                <span class="quantity-value">2</span>
+                <button type="button" class="quantity-button">+</button>
+              </div>
+              <button type="button" class="remove-button">Remove</button>
+            </div>
+          </article>
+        </section>
+
+        <aside class="cart-summary" aria-labelledby="summary-heading">
+          <h2 id="summary-heading">Cart Summary</h2>
+          <p class="summary-subtotal">Subtotal: $329.97</p>
+          <p class="summary-shipping">Delivery Charges: Free</p>
+          <p class="summary-total">Total Amount: $329.97</p>
+          <button type="button" class="checkout-button">Proceed to Checkout</button>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Chalochake. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products | Chalochake</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="main-nav" aria-label="Primary navigation">
+        <a class="brand-logo" href="home.html">Chalochake</a>
+        <ul class="nav-links">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="cart.html">Cart</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="products-page" aria-labelledby="products-page-heading">
+        <h1 id="products-page-heading">Our Products</h1>
+
+        <form class="product-controls">
+          <label class="search-label" for="product-search">Search</label>
+          <input type="search" id="product-search" name="product-search" placeholder="Search products" />
+
+          <label class="filter-label" for="category-filter">Category</label>
+          <select id="category-filter" name="category-filter">
+            <option value="all">All Categories</option>
+            <option value="fashion">Fashion</option>
+            <option value="electronics">Electronics</option>
+            <option value="home">Home</option>
+          </select>
+        </form>
+
+        <section class="product-grid" aria-label="Product listing">
+          <article class="product-card">
+            <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80" alt="Wireless headphones in black" />
+            <h2>Wireless Headphones</h2>
+            <p class="product-price">$89.99</p>
+            <p class="product-rating">Rating: 4.8/5</p>
+            <button type="button">Add to Cart</button>
+          </article>
+
+          <article class="product-card">
+            <img src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=800&q=80" alt="Smart watch on a wrist" />
+            <h2>Smart Watch</h2>
+            <p class="product-price">$119.99</p>
+            <p class="product-rating">Rating: 4.7/5</p>
+            <button type="button">Add to Cart</button>
+          </article>
+
+          <article class="product-card">
+            <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=800&q=80" alt="Leather tote bag in brown" />
+            <h2>Leather Tote Bag</h2>
+            <p class="product-price">$74.50</p>
+            <p class="product-rating">Rating: 4.6/5</p>
+            <button type="button">Add to Cart</button>
+          </article>
+
+          <article class="product-card">
+            <img src="https://images.unsplash.com/photo-1518444065439-e933c06ce9cd?auto=format&fit=crop&w=800&q=80" alt="Portable Bluetooth speaker" />
+            <h2>Portable Speaker</h2>
+            <p class="product-price">$59.99</p>
+            <p class="product-rating">Rating: 4.5/5</p>
+            <button type="button">Add to Cart</button>
+          </article>
+
+          <article class="product-card">
+            <img src="https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&w=800&q=80" alt="Modern desk lamp" />
+            <h2>Desk Lamp</h2>
+            <p class="product-price">$34.99</p>
+            <p class="product-rating">Rating: 4.4/5</p>
+            <button type="button">Add to Cart</button>
+          </article>
+
+          <article class="product-card">
+            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80" alt="Running shoes in white" />
+            <h2>Running Shoes</h2>
+            <p class="product-price">$99.00</p>
+            <p class="product-rating">Rating: 4.9/5</p>
+            <button type="button">Add to Cart</button>
+          </article>
+
+          <article class="product-card">
+            <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=800&q=80" alt="Camera lens on a table" />
+            <h2>Camera Lens</h2>
+            <p class="product-price">$149.00</p>
+            <p class="product-rating">Rating: 4.8/5</p>
+            <button type="button">Add to Cart</button>
+          </article>
+
+          <article class="product-card">
+            <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80" alt="Soft throw blanket on a sofa" />
+            <h2>Throw Blanket</h2>
+            <p class="product-price">$29.99</p>
+            <p class="product-rating">Rating: 4.3/5</p>
+            <button type="button">Add to Cart</button>
+          </article>
+        </section>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Chalochake. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
